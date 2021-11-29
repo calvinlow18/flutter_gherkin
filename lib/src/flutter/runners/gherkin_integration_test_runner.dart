@@ -33,7 +33,7 @@ abstract class GherkinIntegrationTestRunner {
   Hook get hook => _hook!;
   LiveTestWidgetsFlutterBindingFramePolicy? get framePolicy => null;
 
-  Timeout scenarioExecutionTimeout = const Timeout(Duration(minutes: 10));
+  Timeout scenarioExecutionTimeout = const Timeout(Duration(days: 10));
 
   GherkinIntegrationTestRunner(
     this.configuration,
